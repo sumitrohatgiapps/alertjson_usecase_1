@@ -1,0 +1,170 @@
+{
+	"0": {
+		"deepLinkUrl": "https://prd.saas.appdynamics.com/#location=APP_INCIDENT_DETAIL_MODAL&incident=12940614&application=7442",
+		"severity": "WARNING",
+		"triggeredEntityDefinition": {
+			"entityType": "POLICY",
+			"name": "*Error Rate at 1.0% or higher, 03% is the normal",
+			"entityId": 36203
+		},
+		"startTimeInMillis": 1580813755000,
+		"detectedTimeInMillis": 0,
+		"endTimeInMillis": 1580814715004,
+		"name": "*Error Rate at 1.0% or higher, 03% is the normal",
+		"description": "AppDynamics has detected a problem with Application <b>de-Production<\/b>.<br><b>*Error Rate at 1.0% or higher, 03% is the normal<\/b> downgraded in severity and is now <b>warning<\/b>.<br>All of the following conditions were found to be violating<br>For Application <b>de-Production<\/b>:<br>1) Higher than usual error rate<br><b>Higher than usual error rate's<\/b> value <b>0.90<\/b> was <b>greater than<\/b> the threshold <b>0.70<\/b> for the last <b>10<\/b> minutes<br>",
+		"id": 12940614,
+		"affectedEntityDefinition": {
+			"entityType": "APPLICATION",
+			"name": "de-Production",
+			"entityId": 7442
+		},
+		"incidentStatus": "RESOLVED"
+	},
+	"1": {
+		"deepLinkUrl": "https://prd.saas.appdynamics.com/#location=APP_INCIDENT_DETAIL_MODAL&incident=12944214&application=7442",
+		"severity": "WARNING",
+		"triggeredEntityDefinition": {
+			"entityType": "POLICY",
+			"name": "*Error Rate at 1.0% or higher, 03% is the normal",
+			"entityId": 36203
+		},
+		"startTimeInMillis": 1580840695000,
+		"detectedTimeInMillis": 0,
+		"endTimeInMillis": 1580841415000,
+		"name": "*Error Rate at 1.0% or higher, 03% is the normal",
+		"description": "AppDynamics has detected a problem with Application <b>de-Production<\/b>.<br><b>*Error Rate at 1.0% or higher, 03% is the normal<\/b> downgraded in severity and is now <b>warning<\/b>.<br>All of the following conditions were found to be violating<br>For Application <b>de-Production<\/b>:<br>1) Higher than usual error rate<br><b>Higher than usual error rate's<\/b> value <b>1.00<\/b> was <b>greater than<\/b> the threshold <b>0.70<\/b> for the last <b>10<\/b> minutes<br>",
+		"id": 12944214,
+		"affectedEntityDefinition": {
+			"entityType": "APPLICATION",
+			"name": "de-Production",
+			"entityId": 7442
+		},
+		"incidentStatus": "RESOLVED"
+	},
+	"2": {
+		"deepLinkUrl": "https://prd.saas.appdynamics.com/#location=APP_INCIDENT_DETAIL_MODAL&incident=12945682&application=7442",
+		"severity": "WARNING",
+		"triggeredEntityDefinition": {
+			"entityType": "POLICY",
+			"name": "Business Transaction response time is much higher than normal",
+			"entityId": 36202
+		},
+		"startTimeInMillis": 1580853055000,
+		"detectedTimeInMillis": 0,
+		"endTimeInMillis": 1580853295000,
+		"name": "Business Transaction response time is much higher than normal",
+		"description": "AppDynamics has detected a problem with Business Transaction <b>HomepageEnglish<\/b>.<br><b>Business Transaction response time is much higher than normal<\/b> continues to violate with <b>warning<\/b>.<br>All of the following conditions were found to be violating<br>For Application <b>de-Production<\/b>:<br>1) Average Response Time (ms) Baseline Condition<br><b>Average Response Time (ms)'s<\/b> value <b>672.00<\/b> was <b>greater than<\/b> baseline-based calculated value <b>233.00<\/b> by <b>2.00<\/b> standard deviation(s) <b>198.95<\/b>. Baseline used here is '<b>Daily Trend - Last 30 days<\/b>' for the last <b>5<\/b> minutes<br>",
+		"id": 12945682,
+		"affectedEntityDefinition": {
+			"entityType": "BUSINESS_TRANSACTION",
+			"name": "HomepageEnglish",
+			"entityId": 2860816
+		},
+		"incidentStatus": "RESOLVED"
+	},
+	"3": {
+		"deepLinkUrl": "https://prd.saas.appdynamics.com/#location=APP_INCIDENT_DETAIL_MODAL&incident=12946082&application=7442",
+		"severity": "WARNING",
+		"triggeredEntityDefinition": {
+			"entityType": "POLICY",
+			"name": "CPU utilization is too high - PRODUCTION",
+			"entityId": 36204
+		},
+		"startTimeInMillis": 1580857435000,
+		"detectedTimeInMillis": 0,
+		"endTimeInMillis": 1580858515000,
+		"name": "CPU utilization is too high - PRODUCTION",
+		"description": "AppDynamics has detected a problem with Node <b>DE-A-WEB-CD-P15-de<\/b>.<br><b>CPU utilization is too high - PRODUCTION<\/b> downgraded in severity and is now <b>warning<\/b>.<br>All of the following conditions were found to be violating<br>For Node <b>DE-A-WEB-CD-P15-de<\/b>:<br>1) Hardware Resources|CPU|%Busy Condition<br><b>%Busy's<\/b> value <b>89.00<\/b> was <b>greater than<\/b> the threshold <b>80.00<\/b> for the last <b>30<\/b> minutes<br>",
+		"id": 12946082,
+		"affectedEntityDefinition": {
+			"entityType": "APPLICATION_COMPONENT_NODE",
+			"name": "DE-A-WEB-CD-P15-de",
+			"entityId": 2504460
+		},
+		"incidentStatus": "RESOLVED"
+	},
+	"4": {
+		"deepLinkUrl": "https://prd.saas.appdynamics.com/#location=APP_INCIDENT_DETAIL_MODAL&incident=12946093&application=7442",
+		"severity": "WARNING",
+		"triggeredEntityDefinition": {
+			"entityType": "POLICY",
+			"name": "Business Transaction response time is much higher than normal",
+			"entityId": 36202
+		},
+		"startTimeInMillis": 1580857615000,
+		"detectedTimeInMillis": 0,
+		"endTimeInMillis": 1580857975000,
+		"name": "Business Transaction response time is much higher than normal",
+		"description": "AppDynamics has detected a problem with Business Transaction <b>HomepageEnglish<\/b>.<br><b>Business Transaction response time is much higher than normal<\/b> continues to violate with <b>warning<\/b>.<br>All of the following conditions were found to be violating<br>For Application <b>de-Production<\/b>:<br>1) Average Response Time (ms) Baseline Condition<br><b>Average Response Time (ms)'s<\/b> value <b>1505.00<\/b> was <b>greater than<\/b> baseline-based calculated value <b>476.00<\/b> by <b>2.00<\/b> standard deviation(s) <b>505.80<\/b>. Baseline used here is '<b>Daily Trend - Last 30 days<\/b>' for the last <b>5<\/b> minutes<br>",
+		"id": 12946093,
+		"affectedEntityDefinition": {
+			"entityType": "BUSINESS_TRANSACTION",
+			"name": "HomepageEnglish",
+			"entityId": 2860816
+		},
+		"incidentStatus": "RESOLVED"
+	},
+	"5": {
+		"deepLinkUrl": "https://prd.saas.appdynamics.com/#location=APP_INCIDENT_DETAIL_MODAL&incident=12947850&application=7442",
+		"severity": "WARNING",
+		"triggeredEntityDefinition": {
+			"entityType": "POLICY",
+			"name": "*Error Rate at 1.0% or higher, 03% is the normal",
+			"entityId": 36203
+		},
+		"startTimeInMillis": 1580880175000,
+		"detectedTimeInMillis": 0,
+		"endTimeInMillis": 1580880955000,
+		"name": "*Error Rate at 1.0% or higher, 03% is the normal",
+		"description": "AppDynamics has detected a problem with Application <b>de-Production<\/b>.<br><b>*Error Rate at 1.0% or higher, 03% is the normal<\/b> downgraded in severity and is now <b>warning<\/b>.<br>All of the following conditions were found to be violating<br>For Application <b>de-Production<\/b>:<br>1) Higher than usual error rate<br><b>Higher than usual error rate's<\/b> value <b>0.90<\/b> was <b>greater than<\/b> the threshold <b>0.70<\/b> for the last <b>10<\/b> minutes<br>",
+		"id": 12947850,
+		"affectedEntityDefinition": {
+			"entityType": "APPLICATION",
+			"name": "de-Production",
+			"entityId": 7442
+		},
+		"incidentStatus": "RESOLVED"
+	},
+	"6": {
+		"deepLinkUrl": "https://prd.saas.appdynamics.com/#location=APP_INCIDENT_DETAIL_MODAL&incident=12947853&application=7442",
+		"severity": "WARNING",
+		"triggeredEntityDefinition": {
+			"entityType": "POLICY",
+			"name": "Business Transaction response time is much higher than normal",
+			"entityId": 36202
+		},
+		"startTimeInMillis": 1580880235000,
+		"detectedTimeInMillis": 0,
+		"endTimeInMillis": 1580880715000,
+		"name": "Business Transaction response time is much higher than normal",
+		"description": "AppDynamics has detected a problem with Business Transaction <b>HomepageEnglish<\/b>.<br><b>Business Transaction response time is much higher than normal<\/b> continues to violate with <b>warning<\/b>.<br>All of the following conditions were found to be violating<br>For Application <b>de-Production<\/b>:<br>1) Average Response Time (ms) Baseline Condition<br><b>Average Response Time (ms)'s<\/b> value <b>669.00<\/b> was <b>greater than<\/b> baseline-based calculated value <b>104.00<\/b> by <b>2.00<\/b> standard deviation(s) <b>69.73<\/b>. Baseline used here is '<b>Daily Trend - Last 30 days<\/b>' for the last <b>5<\/b> minutes<br>",
+		"id": 12947853,
+		"affectedEntityDefinition": {
+			"entityType": "BUSINESS_TRANSACTION",
+			"name": "HomepageEnglish",
+			"entityId": 2860816
+		},
+		"incidentStatus": "RESOLVED"
+	},
+	"7": {
+		"deepLinkUrl": "https://prd.saas.appdynamics.com/#location=APP_INCIDENT_DETAIL_MODAL&incident=12948508&application=7442",
+		"severity": "WARNING",
+		"triggeredEntityDefinition": {
+			"entityType": "POLICY",
+			"name": "*Error Rate at 1.0% or higher, 03% is the normal",
+			"entityId": 36203
+		},
+		"startTimeInMillis": 1580887855000,
+		"detectedTimeInMillis": 0,
+		"endTimeInMillis": 1580888035000,
+		"name": "*Error Rate at 1.0% or higher, 03% is the normal",
+		"description": "AppDynamics has detected a problem with Application <b>de-Production<\/b>.<br><b>*Error Rate at 1.0% or higher, 03% is the normal<\/b> started violating and is now <b>warning<\/b>.<br>All of the following conditions were found to be violating<br>For Application <b>de-Production<\/b>:<br>1) Higher than usual error rate<br><b>Higher than usual error rate's<\/b> value <b>0.80<\/b> was <b>greater than<\/b> the threshold <b>0.70<\/b> for the last <b>10<\/b> minutes<br>",
+		"id": 12948508,
+		"affectedEntityDefinition": {
+			"entityType": "APPLICATION",
+			"name": "de-Production",
+			"entityId": 7442
+		},
+		"incidentStatus": "RESOLVED"
+	}
+}
